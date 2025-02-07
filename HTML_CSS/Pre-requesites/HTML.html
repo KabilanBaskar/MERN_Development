@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn HTML</title>
+  </head>
+  <body>
+    <h2><center>Learning HTML Tags</center></h2>
+    <b>OBJECTIVE</b>
+    <ul>
+      <li>What is HTML?</li>
+      <li>Types of HTML</li>
+    </ul>
+
+    <h4>What is HTML?</h4>
+    <b>Ans :</b>
+    <i>Structural design of a website or page.</i><br />
+    <custom>
+      There is a custom tag, it defaultly produce an output in the form of p
+      tag.</custom
+    >
+    <hr />
+    <h3>FORM</h3>
+    <ul>
+      <li>form -> eventhandling</li>
+      <li>label -> for</li>
+      <li>input -> (text, number, email, password, placeholder)</li>
+      <li>button</li>
+    </ul>
+    <table>
+      <form>
+        <tr>
+          <td>
+            <label for="Username">Email/Username :</label>
+          </td>
+          <td>
+            <input
+              type="text"
+              id="Username"
+              placeholder="Enter Your Email/Username"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="password">Password :</label>
+          </td>
+          <td>
+            <input
+              type="password"
+              id="password"
+              placeholder="Enter your Password"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Profession"> Profession :</label>
+            </td>
+            <td>
+                <select name="select" id="Profession" required>
+                    <option >--select--</option>
+                    <option >Student</option>
+                    <option>Teacher</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="DOB">Date of Birth :</label>
+            </td>
+            <td>
+                <input type="date" required>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <button type="submit">Signup</button>
+            </td>
+        </tr>
+      </form>
+    </table>
+  </body>
+</html>
