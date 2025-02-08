@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning css</title>
+    <link rel="stylesheet" href = "styles.css">
+</head>
+<body>
+    <center><h2>Basics Of CSS</h2></center>
+    <h5>What is css?</h5>
+    <p><b>Ans :</b> <i>It is used to style your <mark>respective</mark> webpage.</i></p>
+    <hr>
+    <h5>Types of css :</h5>
+    <p>    
+        <ul>
+            <li>Inline : written within the tag.</li>
+            <li>Internal : written anywhere within html page.</li>
+            <li>External : It is written seperately</li>
+        </ul>
+    </p>
+    <hr>
+    <h5>Types of selectors :</h5>
+    <p>
+        <ul>
+            <li>Class</li>
+            <li>Id</li>
+            <li>Element</li>
+            <li>universal : body</li>
+        </ul>
+    </p>
+    <hr>
+    <ol type="i">
+        <li>Inline styling :</li>
+        <p style="background-color: blanchedalmond; color: black; width : fit-content"> The style is an atribute not an element or tag.</p>
+        <li>Internal styling :</li>
+        <p id = "normal">This is a element or tag. It can be written anywhere in the html page.</p>
+        <style>
+            #normal {
+                width: fit-content;
+                background-color: antiquewhite;
+                color: brown;
+            }
+        </style>
+        <li>External styling :</li>
+        <p class="internal external">we can create a external file and link that in head tag.Here, we created a p tag with two classes. Both have the same priority. so, that the second class property will override the first class property.</p>
+    </ol>
+    <hr>
+    <p><b>Note :</b></p>
+    <h5>Priority for codes :</h5>
+    <ol>
+        <li>inline : Always have the top most priority</li>
+        <li>universal selector always have the second most priority.</li>
+        <li>internal : If internal style comes last it hold the second priority otherwise it holds the last priority</li>
+        <li>external : If external style comes last it hold the second priority otherwise it holds the last priority</li>
+    </ol>
+    <hr>
+    <center><h2>Intermediate CSS</h2></center>
+    <ol type="I">
+        <li><h4>Boxmodel :</h4></li>
+        <p>whatever we write it as a boxmodel.</p>
+        <ul>
+            <li>margin : move towards to described position</li>
+            <li>border : move towards to described position</li>
+            <li>padding : move outwards to described position</li>
+        </ul>
+        <hr>
+        <li><h4>Positioning :</h4></li>
+    </ol>
+</body>
+</html>
