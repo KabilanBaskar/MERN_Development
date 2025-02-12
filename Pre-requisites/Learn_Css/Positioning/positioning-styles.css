@@ -2,15 +2,18 @@
     padding: 0px;
 }
 .fixele {
-    position: fixed;
     background-color: aquamarine;
     text-align: center;
     width: 100%;
+    z-index: 4;
 }
 .box {
+    position: relative;
+    width: 100%;
     border: 2px solid black;
     box-shadow: 2px 3px 2px black;
     background-color: yellow;
+    z-index: 2;
 }
 .relative-pos {
     background-color: aqua;
