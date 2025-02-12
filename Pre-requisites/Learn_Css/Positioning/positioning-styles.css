@@ -9,5 +9,53 @@
 }
 .box {
     border: 2px solid black;
+    box-shadow: 2px 3px 2px black;
     background-color: yellow;
+}
+.relative-pos {
+    background-color: aqua;
+    position: relative;
+    left: 50px;
+    top: 50px;
+    z-index: 1;
+}
+.relative-pos1 {
+    background-color: greenyellow;
+    position: relative;
+    z-index: 2;
+}
+.relative-pos2 {
+    background-color: blue;
+    position: relative;
+    z-index: 3;
+}
+.division {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    z-index: index 0;
+}
+.div-pos {
+    position: relative;
+    border: 2px solid gold;
+    margin: 500px;
+    height: 200px;
+    width: 200px;
+}
+.abs-pos {
+    position: absolute;
+    left: 500px;
+    top: 500px;
+}
+.static {
+    position: static;
+    background-color: aqua;
+    top: 50px;
+    margin-top: 20px;
+}
+.sticky {
+    position: sticky;
+    background-color: aqua;
+    top: 0%;
 }
