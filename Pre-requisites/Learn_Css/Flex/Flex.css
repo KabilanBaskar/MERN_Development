@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+nav {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: burlywood;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: brown;
+}
+li {
+    list-style-type: none;
+}
+#skillid {
+    position: relative;
+}
+#skillid .skillset {
+    position: absolute;
+    top: 200px; 
+    left: 200px;
+}
