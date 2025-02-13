@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition-Animation</title>
+    <link rel="stylesheet" href="./Transition-Animation.css">
+    <style>
+        @keyframes animationDiv {
+            0% {
+                background-color: brown;
+                top: 0;
+                left: 0;
+            }
+            25% {
+                background-color: chocolate;
+                top: 0;
+                left: 800px;
+            }
+            50% {
+                background-color: burlywood;
+                top: 500px;
+                left: 800px;
+            }
+            75% {
+                background-color: bisque;
+                top: 600px;
+                left: 0;
+            }
+            100% {
+                background-color: beige;
+                top: 0;
+                left: 0;
+            }
+            from {
+                background-color: chocolate;
+            }
+            to {
+                background-color: blanchedalmond;
+            }
+            
+        }
+        .animation {
+            animation-name: animationDiv;
+            background-color: chocolate;
+            width: 100px;
+            height: 100px;
+            position:fixed;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="transition">This is a transition example.</h1>
+    <h1>This is animation</h1>
+    <div class="animation">Animation</div>
+</body>
+</html>

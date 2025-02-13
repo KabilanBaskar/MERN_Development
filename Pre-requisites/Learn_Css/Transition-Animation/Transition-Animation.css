@@ -1,0 +1,12 @@
+.transition {
+    color: dimgray;
+    transition: background-color 5s, width 6s, height 6s, transform 6s;
+}
+.transition:hover {
+    background-color: dimgray;
+    color: beige;
+    padding: 30px;
+    height: 100px;
+    width: 300px;
+    transform:rotate(360deg);
+}
