@@ -32,3 +32,9 @@ console.log(set)
 // shift operators
 console.log(-8>>3)
 
+for ( i of object) {
+    console.log(object.i)
+}
+for ({key,value} of object) {
+    
+}
