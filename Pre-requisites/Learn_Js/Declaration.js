@@ -53,7 +53,7 @@ arr.forEach(i => {
     console.log(i)
 });
 //for each loop for object must be used only in function
-var obj = (object) => {
+obj = (object) => {
     Object.keys(object).forEach(values => {console.log(values)})
 }
 obj(object2)
