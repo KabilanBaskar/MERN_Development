@@ -74,3 +74,6 @@ var array = (arr) => {
     console.log(arr)
 }
 array(arr)
+
+//Promise in Js
+/* Syntax : new promise((resolve, reject) => {})*/
