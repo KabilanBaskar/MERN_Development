@@ -1,0 +1,12 @@
+/* * {
+    margin: 0;
+} */
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: blueviolet;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
