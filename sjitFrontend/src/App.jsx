@@ -2,16 +2,19 @@ import Home from './component/functional_component/Home.jsx'
 import ClassCompeg from './component/Class_Componnet/classComponenet.jsx'
 import Navbar from './component/functional_component/Navbar.jsx'
 import About from './component/functional_component/About.jsx'
+import Gallery from './component/functional_component/Gallery.jsx'
+import UseEfect from './component/functional_component/Hooks/UseEffects.jsx'
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 function App() {
   return (
     <main>
       <BrowserRouter>
+      <Navbar></Navbar>
           <Routes>
-            <Route path = "/" element = {<ClassCompeg/> }/>
-              <Route path = "/Home" element = {<Home promps = "HI" sjit = "Hello"/>}/>
-              <Route path = "/Navbar" element = {<Navbar/> }/>
-              <Route path = "/About" element = {<About/> }/>
+            <Route path = "/Home" element = {<Home promps = "HI" sjit = "Hello"/>}/>
+            <Route path = "/About" element = {<About/> }/>
+            <Route path = "/Gallery" element = {<Gallery/>} />
+            <Route path = "/UseEffect" element = {<UseEfect/>} />
           </Routes>
       </BrowserRouter>
     </main>
