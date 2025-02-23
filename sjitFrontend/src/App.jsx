@@ -1,28 +1,44 @@
-import Home from './component/functional_component/Home.jsx'
-import ClassCompeg from './component/Class_Componnet/classComponenet.jsx'
-import Navbar from './component/functional_component/Navbar.jsx'
-import About from './component/functional_component/About.jsx'
-import Gallery from './component/functional_component/Gallery.jsx'
-import UseEfect from './component/functional_component/Hooks/UseEffects.jsx'
-import UseEffectApi from './component/functional_component/Hooks/UseEffectApi.jsx'
-import UseMemo from './component/functional_component/Hooks/UseMemo.jsx'
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import Home from "./components/FunctionalComponents/Home";
+import About from "./components/FunctionalComponents/About";
+import Gallery from "./components/FunctionalComponents/Gallery";
+import Contact from "./components/FunctionalComponents/Contact";
+import Signup from "./components/FunctionalComponents/Signup";
+import Navbar from "./components/FunctionalComponents/Navbar";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import UseEffect from "./components/FunctionalComponents/Hooks/UseEffect";
+import UseState from "./components/FunctionalComponents/Hooks/UseState";
+import Login from "./components/FunctionalComponents/Login"
+import UseEffectAPI from "./components/FunctionalComponents/Hooks/UseEffectAPI";
+import UseRef from "./components/FunctionalComponents/Hooks/UseRef";
+import UseMemo from "./components/FunctionalComponents/Hooks/UseMemo";
+import UseCallback from "./components/FunctionalComponents/Hooks/UseCallback";
+import UseMemoize from "./components/FunctionalComponents/Hooks/UseMemoize";
+import HoC from "./components/FunctionalComponents/HoC/HoC";
+
 function App() {
   return (
     <main>
       <BrowserRouter>
-      <Navbar></Navbar>
-          <Routes>
-            <Route path = "/Home" element = {<Home promps = "HI" sjit = "Hello"/>}/>
-            <Route path = "/About" element = {<About/> }/>
-            <Route path = "/Gallery" element = {<Gallery/>} />
-            <Route path = "/UseEffect" element = {<UseEfect/>} />
-            <Route path = "/UseEffectApi" element = {<UseEffectApi/>} />
-            <Route path = "/UseMemo" element = {<UseMemo/>} />
-          </Routes>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home properties="Hello" sjit="SJIT" />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/use-state" element={<UseState />} />
+          <Route path="/use-effect" element={<UseEffect />} />
+          <Route path="/use-effect-api" element={<UseEffectAPI />} />
+          <Route path="/use-ref" element= {<UseRef />} />
+          <Route path="/use-memo" element= {<UseMemo />} />
+          <Route path="/use-callback" element= {<UseCallback />} />
+          <Route path="/use-memoize" element= {<UseMemoize />} />
+          <Route path="/hoc" element= {<HoC />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/signup" element={<Signup />} />
+          <Route path="/login" element={<Login />} />
+        </Routes>
       </BrowserRouter>
     </main>
-  )
+  );
 }
 
 export default App;

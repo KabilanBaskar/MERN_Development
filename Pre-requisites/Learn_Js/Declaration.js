@@ -44,7 +44,7 @@ for( i of arr) {
 }
 
 //for of loop for objects
-for (const i of object.skills) { //It does not invokes Symbol.iterator method to iterate and also the object is a plain one. So, it is not an iterable object
+for (const i of Object.entries(object2)) { //It does not invokes Symbol.iterator method to iterate and also the object is a plain one. So, it is not an iterable object
     console.log(i)
 }
 
@@ -74,6 +74,7 @@ var array = (arr) => {
     console.log(arr)
 }
 array(arr)
+
 
 //Promise in Js
 /* Syntax : new promise((resolve, reject) => {})*/

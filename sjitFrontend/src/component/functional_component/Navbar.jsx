@@ -24,7 +24,8 @@ const Navbar = () => {
                     <li><Link to='/Contact'>Contact</Link></li>
                     <li><Link to='/Signup'>Signup</Link></li>
                     <li><Link to='/UseEffectApi'>UseEffectApi</Link></li>
-                    <li><Link to='/UseMemo'>UseMemo</Link></li>
+                    <li><Link to='/UseMemo'>UseMemo</Link></li> 
+                     <li><Link to='/UseCallBack'>UseCallBack</Link></li> 
                 </ul>
             </nav>
         </header>
