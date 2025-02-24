@@ -26,6 +26,8 @@ const Navbar = () => {
                     <li><Link to='/UseEffectApi'>UseEffectApi</Link></li>
                     <li><Link to='/UseMemo'>UseMemo</Link></li> 
                      <li><Link to='/UseCallBack'>UseCallBack</Link></li> 
+                     <li><Link to='/Result'>StudentResult</Link></li> 
+                     <li><Link to='/CoE'>CoE</Link></li> 
                 </ul>
             </nav>
         </header>
